@@ -1,0 +1,15 @@
+[package]
+name = "hosp"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+actix-web = "4.10.2"
+chrono = { version = "0.4.40", features = ["serde"] }
+diesel = { version = "2.2.9", features = ["postgres", "postgres_backend", "chrono", "r2d2"] }
+dotenv = "0.15.0"
+dotenvy = "0.15.7"
+env_logger = "0.11.8"
+log = "0.4.27"
+r2d2 = "0.8.10"
+serde = { version = "1.0.219", features = ["derive"] }
